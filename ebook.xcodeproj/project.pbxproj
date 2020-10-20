@@ -13,6 +13,11 @@
 		492EDA2D253699050025D13E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492EDA2C253699050025D13E /* Preview Assets.xcassets */; };
 		492EDA38253699050025D13E /* ebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EDA37253699050025D13E /* ebookTests.swift */; };
 		492EDA43253699050025D13E /* ebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EDA42253699050025D13E /* ebookUITests.swift */; };
+		492EDA662536A2AC0025D13E /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EDA652536A2AC0025D13E /* Row.swift */; };
+		492EDA732536A5310025D13E /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EDA722536A5310025D13E /* BookList.swift */; };
+		492EDA782536A6D60025D13E /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EDA772536A6D60025D13E /* Poke.swift */; };
+		49C6AE86253F3CE80005C1FF /* PokeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6AE85253F3CE80005C1FF /* PokeDetail.swift */; };
+		49C6AE8B253F57370005C1FF /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6AE8A253F57370005C1FF /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		492EDA3E253699050025D13E /* ebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492EDA42253699050025D13E /* ebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookUITests.swift; sourceTree = "<group>"; };
 		492EDA44253699050025D13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492EDA652536A2AC0025D13E /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		492EDA722536A5310025D13E /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		492EDA772536A6D60025D13E /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
+		49C6AE85253F3CE80005C1FF /* PokeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDetail.swift; sourceTree = "<group>"; };
+		49C6AE8A253F57370005C1FF /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				492EDA25253699010025D13E /* ebookApp.swift */,
 				492EDA27253699010025D13E /* ContentView.swift */,
 				492EDA29253699050025D13E /* Assets.xcassets */,
+				492EDA652536A2AC0025D13E /* Row.swift */,
+				492EDA772536A6D60025D13E /* Poke.swift */,
+				49C6AE85253F3CE80005C1FF /* PokeDetail.swift */,
+				492EDA722536A5310025D13E /* BookList.swift */,
+				49C6AE8A253F57370005C1FF /* AppView.swift */,
 				492EDA2E253699050025D13E /* Info.plist */,
 				492EDA2B253699050025D13E /* Preview Content */,
 			);
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492EDA782536A6D60025D13E /* Poke.swift in Sources */,
+				492EDA732536A5310025D13E /* BookList.swift in Sources */,
 				492EDA28253699010025D13E /* ContentView.swift in Sources */,
+				49C6AE8B253F57370005C1FF /* AppView.swift in Sources */,
+				49C6AE86253F3CE80005C1FF /* PokeDetail.swift in Sources */,
+				492EDA662536A2AC0025D13E /* Row.swift in Sources */,
 				492EDA26253699010025D13E /* ebookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
